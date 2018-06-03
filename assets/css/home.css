@@ -75,10 +75,6 @@ a span {
     transition: 0.2s ease-in-out;
 }
 
-a {
-    font-family: 'montserratregular';
-}
-
 .btn.extra-width {
     padding: 13px 40px;
 }
@@ -105,20 +101,7 @@ p {
     clear: both;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*
-Section
-*/
-
+/*Section*/
 .sections {
     padding-top: 85px;
     padding-bottom: 105px;
@@ -186,13 +169,7 @@ ul {
     padding: 70px 80px 0 40px;
 }
 
-
-
-
-/*
-Button
-*/
-
+/*Button*/
 .btn-primary.active.focus,
 .btn-primary.active:focus,
 .btn-primary.active:hover,
@@ -210,8 +187,6 @@ Button
     background-color: #5e9a28;
     border-color: #5e9a28;
 }
-
-
 
 .btn {
     display: inline-block;
@@ -261,13 +236,7 @@ Button
     padding: 6px 30px;
 }
 
-
-
-
-
-
 /* navbar section */
-
 .main_menu_bg {
     margin-top: 0px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -338,12 +307,7 @@ Button
     overflow: hidden;
 }
 
-
-
-
-
 /*home section*/
-
 .home {
     padding-top: 10%;
     background: url(../images/background.jpg) no-repeat 100% 100%;
@@ -352,7 +316,7 @@ Button
 
 .home .row {
     margin-top: 60px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .home .col-sm-4 .left {
@@ -382,11 +346,6 @@ Button
     border-left: 2px solid #454C4F;
     padding-left: 10%;
 }
-
-
-
-
-
 
 /*footer section*/
 
@@ -443,10 +402,6 @@ Button
     color: #ffffff;
 }
 
-
-
-
-
 /* scrollup */
 
 .scrollup {
@@ -482,10 +437,6 @@ Button
     margin-left: -6px;
     text-decoration: none;
 }
-
-
-
-
 
 /*mobiel*/
 
@@ -765,7 +716,7 @@ Button
     /*home section*/
     .home {
         padding-top: 10%;
-        background: url(../images/background.jpg) no-repeat 100% 100%;
+        background: url(../images/background.svg) no-repeat 100% 100%;
         background-size: cover;
     }
 

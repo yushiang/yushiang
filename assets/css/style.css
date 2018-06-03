@@ -105,14 +105,7 @@ img {
     max-width: 100%;
 }
 
-
-
-
-
-/*
-Section
-*/
-
+/*Section*/
 .sections {
     padding-top: 85px;
     padding-bottom: 105px;
@@ -180,14 +173,7 @@ ul {
     padding: 70px 80px 0 40px;
 }
 
-
-
-
-
-/*
-Button
-*/
-
+/*Button*/
 .btn-primary.active.focus,
 .btn-primary.active:focus,
 .btn-primary.active:hover,
@@ -254,10 +240,7 @@ Button
     padding: 6px 30px;
 }
 
-
-
 /* navbar section */
-
 .main_menu_bg {
     margin-top: 0px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -329,12 +312,7 @@ Button
 }
 
 
-
-
-
-
 /*home section*/
-
 .home {
     padding-top: 10%;
     background: url(../images/main.jpg) no-repeat 100% 100%;
@@ -344,11 +322,6 @@ Button
 .home .main_home {
     padding-top: 250px;
 }
-
-
-
-
-
 
 /*footer section*/
 
@@ -405,13 +378,7 @@ Button
     color: #ffffff;
 }
 
-
-
-
-
-
 /* scrollup */
-
 .scrollup {
     width: 30px;
     height: 30px;
@@ -499,13 +466,7 @@ Button
     }
 }
 
-
-
-
-
-
 /*pad*/
-
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     /* navbar section */
@@ -554,9 +515,7 @@ Button
     }
 }
 
-
 /*pad*/
-
 @media screen and (min-width: 769px)and (max-width: 1024px) {
     /* navbar section */
     .nav-subtitle {
@@ -583,7 +542,6 @@ Button
     #bs-example-navbar-collapse-1 {
         background-color: transparent;
     }
-
 
     .home {
         padding-top: 55%;

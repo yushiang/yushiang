@@ -260,14 +260,6 @@ Button
     overflow: hidden;
 }
 
-
-
-
-
-
-
-
-
 /*service*/
 
 .service {
@@ -282,7 +274,7 @@ Button
 }
 
 .service #slide1 {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 0% 1%;
 }
 
@@ -314,14 +306,6 @@ Button
     margin-right: -3%;
 }
 
-
-
-
-
-
-
-
-
 /*about*/
 
 .about {
@@ -332,7 +316,7 @@ Button
 
 .about .row {
     margin-top: 3%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 5% 0% 0% 0%;
 }
 
@@ -376,14 +360,6 @@ Button
     padding-left: 10%;
     margin: 1% 0% 3% 0%;
 }
-
-
-
-
-
-
-
-
 
 /*footer section*/
 
@@ -440,14 +416,6 @@ Button
     color: #ff7200;
 }
 
-
-
-
-
-
-
-
-
 /* scrollup */
 
 .scrollup {
@@ -483,8 +451,6 @@ Button
     margin-left: -6px;
     text-decoration: none;
 }
-
-
 
 
 /*mobiel*/
@@ -547,7 +513,7 @@ Button
     }
 
     .service #slide1 {
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.8);
         margin: 0% 1%;
     }
 
@@ -594,7 +560,7 @@ Button
 
     .about .row {
         margin: 18% 2%;
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, 0.8);
     }
 
     .about .col-sm-4 .left {
@@ -730,7 +696,7 @@ Button
     }
 
     .service #slide1 {
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.8);
         margin: 0% 1%;
     }
 
@@ -777,7 +743,7 @@ Button
 
     .about .row {
         margin: 18% 2%;
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, 0.8);
     }
 
     .about .col-sm-4 .left {
@@ -855,11 +821,6 @@ Button
     }
 }
 
-
-
-
-
-
 /*pad*/
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -900,7 +861,7 @@ Button
     }
 
     .service #slide1 {
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.8);
         margin: 0% 1%;
     }
 
@@ -948,7 +909,7 @@ Button
 
     .about .row {
         margin: 5% 2% 5% 2%;
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.8);
     }
 
     .about .col-sm-4 .left {
@@ -995,14 +956,6 @@ Button
     }
 }
 
-
-
-
-
-
-
-
-
 /*pad*/
 
 @media screen and (min-width: 769px)and (max-width: 1024px) {
@@ -1044,7 +997,7 @@ Button
     }
 
     .service #slide1 {
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.8);
         margin: 0% 1%;
     }
 
