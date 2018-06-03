@@ -19,6 +19,8 @@ body {
     margin-right: 0;
     font-weight: 300;
     width: 100%;
+    font-family: 'Microsoft JhengHei';
+    font-family: 'sans-serif';
 }
 
 .preloader {
@@ -73,10 +75,6 @@ a span {
     transition: 0.2s ease-in-out;
 }
 
-a {
-    font-family: 'montserratregular';
-}
-
 .btn.extra-width {
     padding: 13px 40px;
 }
@@ -106,6 +104,7 @@ p {
 img {
     max-width: 100%;
 }
+
 
 
 
@@ -256,6 +255,7 @@ Button
 }
 
 
+
 /* navbar section */
 
 .main_menu_bg {
@@ -328,6 +328,11 @@ Button
     overflow: hidden;
 }
 
+
+
+
+
+
 /*home section*/
 
 .home {
@@ -339,6 +344,11 @@ Button
 .home .main_home {
     padding-top: 250px;
 }
+
+
+
+
+
 
 /*footer section*/
 
@@ -396,6 +406,10 @@ Button
 }
 
 
+
+
+
+
 /* scrollup */
 
 .scrollup {
@@ -432,14 +446,16 @@ Button
     text-decoration: none;
 }
 
+
 /*mobiel*/
+
 @media screen and (max-width: 480px) {
     /* navbar section */
     .main_menu_bg .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 20px;
         font-size: 0.875rem;
-        color: #DDDDDD;
+        color: #000000;
         font-size: 15px;
     }
 
@@ -468,7 +484,7 @@ Button
     }
 
     #bs-example-navbar-collapse-1 {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: #F1F0F0;
     }
 
     /*home section*/
@@ -483,9 +499,24 @@ Button
     }
 }
 
+
+
+
+
+
 /*pad*/
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
+
     /* navbar section */
+    .main_menu_bg .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 0.875rem;
+        color: #DDDDDD;
+        font-size: 15px;
+    }
+
     .nav-subtitle {
         margin-left: 20%;
         margin-top: 3%;
@@ -502,7 +533,7 @@ Button
         padding: 0px 10px;
     }
 
-.navbar-brand img {
+    .navbar-brand img {
         padding: 1% 2%;
         max-width: 20%;
     }
@@ -523,7 +554,9 @@ Button
     }
 }
 
+
 /*pad*/
+
 @media screen and (min-width: 769px)and (max-width: 1024px) {
     /* navbar section */
     .nav-subtitle {
@@ -550,6 +583,7 @@ Button
     #bs-example-navbar-collapse-1 {
         background-color: transparent;
     }
+
 
     .home {
         padding-top: 55%;

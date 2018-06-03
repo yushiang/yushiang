@@ -19,7 +19,8 @@ body {
     margin-right: 0;
     font-weight: 300;
     width: 100%;
-    font-family: 'ralewayregular';
+    font-family: 'Microsoft JhengHei';
+    font-family: 'sans-serif';
 }
 
 .preloader {
@@ -72,10 +73,6 @@ a span {
     -webkit-transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
-}
-
-a {
-    font-family: 'montserratregular';
 }
 
 .btn:focus,
@@ -265,6 +262,12 @@ Button
 
 
 
+
+
+
+
+
+
 /*service*/
 
 .service {
@@ -310,6 +313,12 @@ Button
 .service .col-sm-8 .right {
     margin-right: -3%;
 }
+
+
+
+
+
+
 
 
 
@@ -370,6 +379,12 @@ Button
 
 
 
+
+
+
+
+
+
 /*footer section*/
 
 .footer {
@@ -427,6 +442,12 @@ Button
 
 
 
+
+
+
+
+
+
 /* scrollup */
 
 .scrollup {
@@ -474,8 +495,17 @@ Button
         padding-top: 10px;
         padding-bottom: 20px;
         font-size: 0.875rem;
-        color: #DDDDDD;
+        color: #000000;
         font-size: 15px;
+    }
+
+    .main_menu_bg .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus {
+        color: #666666;
+        padding-bottom: 22px;
+        border-bottom: 1px solid #666666;
+        background: transparent;
     }
 
     .nav-subtitle {
@@ -503,7 +533,7 @@ Button
     }
 
     #bs-example-navbar-collapse-1 {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: #F1F0F0;
     }
 
     .service {
@@ -648,8 +678,17 @@ Button
         padding-top: 10px;
         padding-bottom: 20px;
         font-size: 0.875rem;
-        color: #DDDDDD;
+        color: #000000;
         font-size: 15px;
+    }
+
+    .main_menu_bg .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus {
+        color: #666666;
+        padding-bottom: 22px;
+        border-bottom: 1px solid #666666;
+        background: transparent;
     }
 
     .nav-subtitle {
@@ -677,7 +716,7 @@ Button
     }
 
     #bs-example-navbar-collapse-1 {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: #F1F0F0;
     }
 
     .service {
@@ -818,6 +857,9 @@ Button
 
 
 
+
+
+
 /*pad*/
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -955,6 +997,12 @@ Button
 
 
 
+
+
+
+
+
+
 /*pad*/
 
 @media screen and (min-width: 769px)and (max-width: 1024px) {
@@ -1023,11 +1071,10 @@ Button
         line-height: 30px;
         letter-spacing: 2px;
     }
-/*
+    /*
     .service .col-sm-8 .right {
         margin-right: -3%;
     }*/
-
     .service .col-sm-8 .right img {
         width: 108%;
         height: auto;

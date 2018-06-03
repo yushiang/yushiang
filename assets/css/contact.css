@@ -19,7 +19,8 @@ body {
     margin-right: 0;
     font-weight: 300;
     width: 100%;
-    font-family: 'ralewayregular';
+    font-family: 'Microsoft JhengHei';
+    font-family: 'sans-serif';
 }
 
 .preloader {
@@ -97,7 +98,6 @@ a {
 }
 
 
-
 /*
 Section
 */
@@ -170,6 +170,8 @@ ul {
 }
 
 
+
+
 /*
 Button
 */
@@ -240,6 +242,8 @@ Button
     color: #fff;
     padding: 6px 30px;
 }
+
+
 
 
 /* navbar section */
@@ -317,6 +321,8 @@ Button
 }
 
 
+
+
 /*contact section*/
 
 .contact {
@@ -388,6 +394,8 @@ Button
 
 
 
+
+
 /*footer section*/
 
 .footer {
@@ -444,11 +452,6 @@ Button
 }
 
 
-
-
-
-
-
 /* scrollup */
 
 .scrollup {
@@ -486,6 +489,8 @@ Button
 }
 
 
+
+
 /*mobiel*/
 
 @media screen and (max-width: 320px) {
@@ -494,8 +499,17 @@ Button
         padding-top: 10px;
         padding-bottom: 20px;
         font-size: 0.875rem;
-        color: #DDDDDD;
+        color: #000000;
         font-size: 15px;
+    }
+
+    .main_menu_bg .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus {
+        color: #666666;
+        padding-bottom: 22px;
+        border-bottom: 1px solid #666666;
+        background: transparent;
     }
 
     .nav-subtitle {
@@ -523,7 +537,7 @@ Button
     }
 
     #bs-example-navbar-collapse-1 {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: #F1F0F0;
     }
 
     /*contact section*/
@@ -600,8 +614,17 @@ Button
         padding-top: 10px;
         padding-bottom: 20px;
         font-size: 0.875rem;
-        color: #DDDDDD;
+        color: #000000;
         font-size: 15px;
+    }
+
+    .main_menu_bg .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus {
+        color: #666666;
+        padding-bottom: 22px;
+        border-bottom: 1px solid #666666;
+        background: transparent;
     }
 
     .nav-subtitle {
@@ -629,7 +652,7 @@ Button
     }
 
     #bs-example-navbar-collapse-1 {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: #F1F0F0;
     }
 
     /*contact section*/
@@ -700,7 +723,10 @@ Button
     }
 }
 
+
+
 /*pad*/
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
     /* navbar section */
     .nav-subtitle {
@@ -800,6 +826,8 @@ Button
         /*text-align: right;*/
     }
 }
+
+
 
 /*pad*/
 
