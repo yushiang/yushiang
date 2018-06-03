@@ -46,15 +46,15 @@
                                 <div class="container-fluid">
                                     <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                        <a class="navbar-brand" href="./index.html">
-                                            <img src="assets/images/logo.png"/>
-                                        </a>
+                                        <div class="navbar-brand" href="#">
+                                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                            <a href="./index.html"><img src="assets/images/logo.png" /></a>
+                                        </div>
                                     </div>
                                     <div class="nav-subtitle">
                                         <p>專業&nbsp;•&nbsp;品質&nbsp;•&nbsp;信賴</p>
@@ -93,7 +93,7 @@
                                                         <br>-房屋廠房和鋼構類
                                                     </p>
                                                     <div class="learn-more text-right">
-                                                        <a href="#about" class="btn btn-primary" onclick="about()">了解更多</a>
+                                                        <a href="#about" class="btn btn-primary">了解更多</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -209,21 +209,8 @@
     <script src="assets/js/jquery.easing.1.3.js"></script>
     <script src="assets/js/jquery.masonry.min.js"></script>
     <script src="assets/js/jquery.fancybox.pack.js"></script>
-    <!--     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> -->
-    <script src="http://maps.google.com/maps/api/js"></script>
-    <script src="assets/js/gmaps.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-    function about() {
-        var x = document.getElementById("service");
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
-    }
-    </script>
 </body>
 
 </html>
