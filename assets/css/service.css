@@ -89,14 +89,7 @@ a span {
     /*    direction: rtl;*/
 }
 
-
-
-
-
-/*
-Section
-*/
-
+/*Section*/
 .sections {
     padding-top: 85px;
     padding-bottom: 105px;
@@ -135,14 +128,7 @@ ul {
     list-style: none;
 }
 
-
-
-
-
-/*
-Button
-*/
-
+/*Button*/
 .btn-primary.active.focus,
 .btn-primary.active:focus,
 .btn-primary.active:hover,
@@ -189,13 +175,7 @@ Button
     padding: 3px 20px;
 }
 
-
-
-
-
-
 /* navbar section */
-
 .main_menu_bg {
     margin-top: 0px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -266,10 +246,7 @@ Button
     overflow: hidden;
 }
 
-
-
 /*service*/
-
 .service {
     padding-top: 10%;
     background: url(../images/background.jpg) no-repeat 100% 100%;
@@ -315,9 +292,26 @@ Button
 }
 
 
+.service .owl-theme .owl-nav {
+    margin-top: 80px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #4A494E;
+}
+.owl-theme .owl-dots .owl-dot span {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    transform: rotate(45deg);
+}
 
 /*about*/
-
 .about {
     padding-top: 5%;
     background: url(../images/background.jpg) no-repeat 100% 100%;
@@ -373,17 +367,16 @@ Button
 
 .about .col-sm-8 .img {
     padding-left: 10%;
+    text-align: center;
     /* padding-bottom: 5%;*/
 }
 
 .about .col-sm-8 .img img {
     max-width: 55%;
+    max-height: 250px;
 }
 
-
-
 /*footer section*/
-
 .footer {
     background: #000000;
 }
@@ -438,9 +431,7 @@ Button
 }
 
 
-
 /* scrollup */
-
 .scrollup {
     width: 30px;
     height: 30px;
@@ -475,11 +466,7 @@ Button
     text-decoration: none;
 }
 
-
-
-
 /*mobiel*/
-
 @media screen and (max-width: 320px) {
     /* navbar section */
     .main_menu_bg .navbar-nav>li>a {
@@ -830,6 +817,7 @@ Button
         margin-bottom: 5%;
     }
 
+
     /*Button*/
     .btn-primary.active.focus,
     .btn-primary.active:focus,
@@ -864,6 +852,7 @@ Button
         border: 1px solid #4D4D4D;
     }
 }
+
 
 
 
@@ -1001,6 +990,7 @@ Button
         margin: 1% 0% 3% 0%;
     }
 }
+
 
 
 

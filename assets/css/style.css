@@ -416,7 +416,60 @@ ul {
 
 /*mobiel*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
+    /* navbar section */
+
+    .main_menu_bg .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 0.875rem;
+        color: #000000;
+        font-size: 15px;
+    }
+
+    .nav-subtitle {
+        display: none;
+    }
+
+    .nav-subtitle p {
+        display: none;
+    }
+
+    .navbar-brand {
+        padding: 0px 10px;
+    }
+
+    .navbar-brand img {
+        padding: 0px 5px 0px 5px;
+        max-width: 20%;
+    }
+
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:hover,
+    .navbar-default .navbar-nav>.open>a:focus {
+        background-color: transparent;
+        color: #AAAAAA;
+    }
+
+    #bs-example-navbar-collapse-1 {
+        background-color: #F1F0F0;
+    }
+    /*home section*/
+
+    .home {
+        padding-top: -10%;
+        background: url(../images/background_mobile.png) no-repeat;
+        width: 320px;
+        height: 568px;
+        background-size: cover;
+        background-position: 58% 58%;
+    }
+
+    .home .main_home {
+        padding-top: 250px;
+    }}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
     /* navbar section */
     .main_menu_bg .navbar-nav>li>a {
         padding-top: 10px;
@@ -457,9 +510,9 @@ ul {
     /*home section*/
     .home {
         padding-top: 8%;
-        background: url(../images/main.jpg) no-repeat 5% 5%;
+        background: url(../images/background_mobile.jpg) no-repeat 100% 100%;
         background-size: cover;
-        background-position: 5% 5%;
+        background-position: 58% 58%;
     }
     .home .main_home {
         padding-top: 250px;

@@ -716,7 +716,7 @@ ul {
     /*home section*/
     .home {
         padding-top: 10%;
-        background: url(../images/background.svg) no-repeat 100% 100%;
+        background: url(../images/background.jpg) no-repeat 100% 100%;
         background-size: cover;
     }
 
