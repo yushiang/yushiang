@@ -109,6 +109,8 @@ img {
 
 
 
+
+
 /*Section*/
 
 .sections {
@@ -179,7 +181,10 @@ ul {
 }
 
 
+
+
 /*Button*/
+
 .btn-primary.active.focus,
 .btn-primary.active:focus,
 .btn-primary.active:hover,
@@ -245,6 +250,8 @@ ul {
     color: #fff;
     padding: 6px 30px;
 }
+
+
 
 
 
@@ -322,12 +329,17 @@ ul {
 }
 
 
+
+
 /*home section*/
+
 .home {
     padding-top: 10%;
     background: url(../images/main.jpg) no-repeat 100% 100%;
     background-size: cover;
 }
+
+
 
 /*footer section*/
 
@@ -387,6 +399,8 @@ ul {
 
 
 
+
+
 /* scrollup */
 
 .scrollup {
@@ -425,7 +439,10 @@ ul {
 
 
 
+
+
 /*mobiel*/
+
 @media screen and (max-width: 320px) {
     /* navbar section */
     .main_menu_bg .navbar-nav>li>a {
@@ -476,17 +493,14 @@ ul {
         display: inline-block;
         max-width: 100%;
         font-size: 12px;
-    }
-
-    .home .overlay .info {
-        margin: 30% 0% 0% 40%;
-        max-width: 100%;
-        font-size: 12px;
+        padding: 1% 2%;
+        background-color: rgba(255, 255, 255, 0.3);
     }
 
     .home .overlay .info {
         margin: 30% 0% 0% 10%;
         max-width: 100%;
+        font-size: 12px;
     }
 
     .home .overlay li {
@@ -555,16 +569,13 @@ ul {
     }
 
     .home .overlay p {
-        margin: 82% 0% 0% 25%;
+        margin: 78% 0% 0% 25%;
         color: #ffffff;
         display: inline-block;
         max-width: 98%;
         font-size: 12px;
-    }
-
-    .home .overlay .info {
-        margin: 30% 0% 0% 40%;
-        max-width: 100%;
+        padding: 1% 2%;
+        background-color: rgba(255, 255, 255, 0.3);
     }
 
     .home .overlay .info {
@@ -573,7 +584,7 @@ ul {
     }
 
     .home .overlay li {
-        font-size: 18px;
+        font-size: 17px;
         color: #ffffff;
         margin: 2%;
         letter-spacing: 2px;
@@ -642,7 +653,9 @@ ul {
         color: #ffffff;
         display: inline-block;
         max-width: 95%;
-        font-size: 14px;
+        font-size: 13px;
+        padding: 1% 1%;
+        background-color: rgba(255, 255, 255, 0.3);
     }
 
     .home .overlay .info {
@@ -667,7 +680,10 @@ ul {
 }
 
 
+
+
 /*pad*/
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     /* navbar section */
@@ -719,6 +735,8 @@ ul {
         display: none;
     }
 }
+
+
 
 
 
