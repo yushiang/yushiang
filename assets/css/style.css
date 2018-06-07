@@ -489,7 +489,7 @@ ul {
     }
     .home .overlay p {
         margin: 91% 0% 0% 25%;
-        color: #ffffff;
+        color: #000000;
         display: inline-block;
         max-width: 100%;
         font-size: 12px;
@@ -570,7 +570,7 @@ ul {
 
     .home .overlay p {
         margin: 78% 0% 0% 25%;
-        color: #ffffff;
+        color: #000000;
         display: inline-block;
         max-width: 98%;
         font-size: 12px;
@@ -650,7 +650,7 @@ ul {
 
     .home .overlay p {
         margin: 70% 0% 0% 26.5%;
-        color: #ffffff;
+        color: #000000;
         display: inline-block;
         max-width: 95%;
         font-size: 13px;
