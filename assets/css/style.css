@@ -426,7 +426,6 @@ ul {
 
 
 /*mobiel*/
-
 @media screen and (max-width: 320px) {
     /* navbar section */
     .main_menu_bg .navbar-nav>li>a {
@@ -486,14 +485,15 @@ ul {
     }
 
     .home .overlay .info {
-        margin: 30% 0% 0% 25%;
+        margin: 30% 0% 0% 10%;
         max-width: 100%;
     }
 
     .home .overlay li {
-        font-size: 12px;
+        font-size: 14px;
         color: #ffffff;
         margin: 2%;
+        letter-spacing: 2px;
     }
 
     .home .overlay span {
@@ -568,14 +568,15 @@ ul {
     }
 
     .home .overlay .info {
-        margin: 30% 0% 0% 25%;
+        margin: 30% 0% 0% 8%;
         max-width: 100%;
     }
 
     .home .overlay li {
-        font-size: 12px;
+        font-size: 18px;
         color: #ffffff;
         margin: 2%;
+        letter-spacing: 2px;
     }
 
     .home .overlay span {
@@ -645,14 +646,15 @@ ul {
     }
 
     .home .overlay .info {
-        margin: 30% 0% 0% 25%;
+        margin: 30% 0% 0% 10%;
         max-width: 100%;
     }
 
     .home .overlay li {
-        font-size: 14px;
+        font-size: 18px;
         color: #ffffff;
         margin: 2%;
+        letter-spacing: 2px;
     }
 
     .home .overlay span {
@@ -665,12 +667,7 @@ ul {
 }
 
 
-
-
-
-
 /*pad*/
-
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     /* navbar section */
