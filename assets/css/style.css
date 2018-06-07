@@ -111,6 +111,7 @@ img {
 
 
 
+
 /*Section*/
 
 .sections {
@@ -183,6 +184,7 @@ ul {
 
 
 
+
 /*Button*/
 
 .btn-primary.active.focus,
@@ -251,13 +253,7 @@ ul {
     padding: 6px 30px;
 }
 
-
-
-
-
-
 /* navbar section */
-
 .main_menu_bg {
     margin-top: 0px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -328,21 +324,14 @@ ul {
     overflow: hidden;
 }
 
-
-
-
 /*home section*/
-
 .home {
     padding-top: 10%;
     background: url(../images/main.jpg) no-repeat 100% 100%;
     background-size: cover;
 }
 
-
-
 /*footer section*/
-
 .footer {
     background: #000000;
 }
@@ -397,50 +386,6 @@ ul {
 }
 
 
-
-
-
-
-/* scrollup */
-
-.scrollup {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    opacity: .3;
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
-    color: #fff;
-    cursor: pointer;
-    background-color: #000;
-    z-index: 1000;
-    transition: opacity .5s, background-color .5s;
-    -moz-transition: opacity .5s, background-color .5s;
-    -webkit-transition: opacity .5s, background-color .5s;
-}
-
-.scrollup:hover {
-    background: #DDDDDD;
-    opacity: 1;
-}
-
-.scrollup i {
-    font-size: 13px;
-    position: absolute;
-    opacity: 1;
-    color: #fff;
-    left: 50%;
-    top: 50%;
-    margin-top: -7px;
-    margin-left: -6px;
-    text-decoration: none;
-}
-
-
-
-
-
 /*mobiel*/
 
 @media screen and (max-width: 320px) {
@@ -488,13 +433,14 @@ ul {
         background-position: 47% 47%;
     }
     .home .overlay p {
-        margin: 91% 0% 0% 25%;
-        color: #000000;
+        margin: 88% 0% 0% 25%;
+        color: #ffffff;
         display: inline-block;
         max-width: 100%;
-        font-size: 12px;
+        font-size: 13px;
         padding: 1% 2%;
-        background-color: rgba(255, 255, 255, 0.3);
+        background-color: rgba(0, 0, 0, 0.5);
+        line-height: 20px;
     }
 
     .home .overlay .info {
@@ -563,19 +509,19 @@ ul {
     /*home section*/
     .home {
         padding-top: 8%;
-        background: url(../images/background_mobile.jpg) no-repeat 100% 100%;
+        background: url(../images/background_mobile.jpg) no-repeat 120% 120%;
         background-size: auto;
         background-position: 48% 48%;
     }
 
     .home .overlay p {
-        margin: 78% 0% 0% 25%;
-        color: #000000;
+        margin: 73.5% 0% 0% 25%;
+        color: #ffffff;
         display: inline-block;
         max-width: 98%;
-        font-size: 12px;
+        font-size: 14.5px;
         padding: 1% 2%;
-        background-color: rgba(255, 255, 255, 0.3);
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .home .overlay .info {
@@ -649,13 +595,13 @@ ul {
     }
 
     .home .overlay p {
-        margin: 70% 0% 0% 26.5%;
-        color: #000000;
+        margin: 65% 0% 0% 26.5%;
+        color: #ffffff;
         display: inline-block;
         max-width: 95%;
-        font-size: 13px;
-        padding: 1% 1%;
-        background-color: rgba(255, 255, 255, 0.3);
+        font-size: 15px;
+        padding: 1% 2%;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     .home .overlay .info {
@@ -680,10 +626,7 @@ ul {
 }
 
 
-
-
 /*pad*/
-
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
     /* navbar section */
@@ -735,6 +678,7 @@ ul {
         display: none;
     }
 }
+
 
 
 
