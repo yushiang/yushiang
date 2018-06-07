@@ -534,7 +534,7 @@ ul {
     /*home section*/
     .home {
         padding-top: 8%;
-        background: url(../images/background_mobile.jpg) no-repeat 120% 120%;
+        background: url(../images/background_mobile.jpg) no-repeat 100% 100%;
          background-size: cover;
         background-position: 40% 40%;
     }
