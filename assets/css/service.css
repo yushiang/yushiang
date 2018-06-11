@@ -90,7 +90,7 @@ a span {
 }
 
 /*Section*/
-.sections {
+/*.sections {
     padding-top: 85px;
     padding-bottom: 105px;
     overflow: hidden;
@@ -127,7 +127,7 @@ ul {
     padding: 0;
     list-style: none;
 }
-
+*/
 /*Button*/
 .btn-primary.active.focus,
 .btn-primary.active:focus,
@@ -160,6 +160,7 @@ ul {
     background-color: #4D4D4D;
     transition: .5s;
     border: 1px solid #4D4D4D;
+    z-index: 999;
 }
 
 .btn:hover {
